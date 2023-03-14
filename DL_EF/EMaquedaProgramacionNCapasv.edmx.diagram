@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f9d96991d919466abdc5b6537400d1c9" Name="Diagram1">
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Rol" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Aseguradora" Width="1.5" PointX="5.375" PointY="15.125" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Colonia" Width="1.5" PointX="3.125" PointY="10" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.DependienteTipo" Width="1.5" PointX="9.625" PointY="18.125" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Direccion" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.EmpresaPoliza" Width="1.5" PointX="10.625" PointY="9.125" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Estado" Width="1.5" PointX="0.875" PointY="13.125" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Movimiento" Width="1.5" PointX="5.375" PointY="4.875" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.MovimientoDetalle" Width="1.5" PointX="15.625" PointY="3" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.MovimientoTipo" Width="1.5" PointX="3.125" PointY="13.25" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Municipio" Width="1.5" PointX="0.875" PointY="10.125" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Pai" Width="1.5" PointX="0.875" PointY="16.25" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Poliza" Width="1.5" PointX="8.375" PointY="4.5" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Status" Width="1.5" PointX="13.375" PointY="3.125" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Subpoliza" Width="1.5" PointX="6.125" PointY="8.25" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Vigencia" Width="1.5" PointX="10.625" PointY="4.625" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__EmpresaPo__IdAse__619B8048" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Colonia__IdMunic__38996AB5" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Direccion__IdCol__3B75D760" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__EmpresaPo__IdPol__628FA481" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Estado__IdPais__31EC6D26" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Municipio__IdEst__34C8D9D1" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Movimient__IdMov__778AC167" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Movimient__IdSta__74AE54BC" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Poliza__IdSubpol__5DCAEF64" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Vigencia__IdPoli__6D0D32F4" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Usuario" Width="1.5" PointX="3" PointY="2.375" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Asegurado__IdUsu__2D27B809" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Direccion__IdUsu__3C69FB99" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__EmpresaPo__IdUsu__6383C8BA" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Movimient__IdUsu__787EE5A0" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Poliza__IdUsuari__5EBF139D" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Usuario__IdRol__29572725" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Vigencia__IdUsua__6C190EBB" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Dependiente" Width="1.5" PointX="11.875" PointY="14.625" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Empleado" Width="1.5" PointX="9.625" PointY="13" />
+        <EntityTypeShape EntityType="EMaquedaProgramacionNCapasModel.Empresa" Width="1.5" PointX="7.375" PointY="13.75" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Dependien__IdDep__245D67DE" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Dependien__IdEmp__236943A5" />
+        <AssociationConnector Association="EMaquedaProgramacionNCapasModel.FK__Empleado__IdEmpr__208CD6FA" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
